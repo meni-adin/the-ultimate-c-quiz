@@ -1,0 +1,1 @@
+Because "A label shall be translated as if it were followed by a null statement." (C23 §6.8.2.2)
