@@ -1,5 +1,6 @@
-How is it possible that the results of these 2 condition be different?
+How is it possible that the results of these two condition be different?
+
 ```
-#if 'z' - 'a' == 25
-if ('z' - 'a' == 25)
+1. #if 'z' - 'a' == 25
+2. if ('z' - 'a' == 25)
 ```

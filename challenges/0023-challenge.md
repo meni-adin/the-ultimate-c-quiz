@@ -1,1 +1,1 @@
-What are all the uses of the `*` character?
+What are all the usages of the `*` character in `C`?

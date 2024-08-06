@@ -1,6 +1,6 @@
 What would be printed?
 
-```
+```c
 #include <stdio.h>
 
 int global_i;

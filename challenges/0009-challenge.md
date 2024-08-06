@@ -1,9 +1,9 @@
-What this code prints?
+What does this code print?
 
-```
+```c
 #include <stdio.h>
 
-int main(void)
+int main()
 {
     int intNum = 1u - 2;
     printf("intNum: %d\n", intNum);

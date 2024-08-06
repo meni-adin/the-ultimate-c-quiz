@@ -1,7 +1,7 @@
-The following example is from C11 §6.8.3.6, but was removed in C23 Standard - why?
+The following example is from `C11`, `§6.8.3.6`, but was removed in `C23` Standard - why?
 
-> EXAMPLE 3 A null statement may also be used to carry a label just before the closing } of a compound statement.
-```C
+> __EXAMPLE 3__ A null statement may also be used to carry a label just before the closing } of a compound statement.
+```c
 while (loop1) {
     /* ... */
     while (loop2) {
@@ -12,4 +12,5 @@ while (loop1) {
     }
     /* ... */
 end_loop1: ;
-}```
+}
+```

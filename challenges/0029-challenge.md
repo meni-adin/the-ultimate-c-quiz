@@ -1,6 +1,6 @@
 What is the problem with the following code?
 
-```
+```c
 #include <stddef.h>
 
 union MyUnion

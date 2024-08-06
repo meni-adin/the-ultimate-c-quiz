@@ -1,9 +1,8 @@
-Why assignment like the following is forbidden?
-(taken from C11 §6.5.16.2.6)
+Why assignment like the following is forbidden? (taken from `C11`, `§6.5.16.2.6`)
 
-```
-    const char **cpp;
-    char *p;
+```c
+const char **cpp;
+char *p;
 
-    cpp = &p;
+cpp = &p;
 ```

@@ -1,7 +1,9 @@
-Look at this example (assuming CHAR_BIT == 8):
+Look at this example (assuming `CHAR_BIT == 8`):
 
-## 1
-```
+1
+---
+
+```c
 #include <stdio.h>
 
 int main()
@@ -21,8 +23,10 @@ Output is:
 256
 ```
 
-## 2
-```
+2
+---
+
+```c
 #include <stdio.h>
 
 int main()
@@ -42,4 +46,4 @@ Output is:
 0
 ```
 
-This is because the first member of a union is the one initialized.
+This is because the first member of a `union` is the one initialized.

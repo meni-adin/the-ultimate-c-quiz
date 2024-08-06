@@ -1,6 +1,6 @@
-Since it's invalid for 2 cases to have the same value, the only replacement I can think of is:
+Since it's invalid for two `case`s to have the same value, the only valid replacement I can think of is:
 
-```C
+```c
 int main()
 {
     switch(1)

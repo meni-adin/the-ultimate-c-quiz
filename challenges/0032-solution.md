@@ -1,6 +1,6 @@
-You can use designators (C11 §6.7.9.36):
+You can use designators (`C11`, `§6.7.9.36`):
 
-```
+```c
 #include <stdio.h>
 
 int main(void)

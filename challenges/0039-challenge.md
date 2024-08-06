@@ -1,6 +1,6 @@
-Is this code legal?
+Is this code valid?
 
-```
+```c
 #include <stdio.h>
 
 int arr[];

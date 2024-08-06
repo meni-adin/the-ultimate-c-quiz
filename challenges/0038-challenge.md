@@ -1,6 +1,6 @@
-Is this code OK?
+Is this code valid?
 
-```
+```c
 int my_func()
 {
     return;

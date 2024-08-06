@@ -1,6 +1,9 @@
-Option 1:
-(C11, §6.5.3.4 paragraph 2, footnote 102)
-```
+__Option 1__:
+---
+
+(`C11`, `§6.5.3.4.2`)
+
+```c
 int main()
 {
     char *ptr = 0;
@@ -8,9 +11,12 @@ int main()
 }
 ```
 
-Option 2:
-(C11, §6.5.3.2 paragraph 4, footnote 102)
-```
+__Option 2__:
+---
+
+(`C11`, `§6.5.3.2.4`, footnote `102`)
+
+```c
 int main()
 {
     char *ptr = 0;

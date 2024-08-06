@@ -1,6 +1,6 @@
-What is the difference between this 2 versions:
+What is the difference between this two versions:
 
-```
-    i = i + 1; // #1
-    i += 1;    // #2
+```c
+i = i + 1; // #1
+i += 1;    // #2
 ```

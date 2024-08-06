@@ -1,7 +1,6 @@
-The following code would print the value UINT_MAX as the first result, due to integer-promotion in conditional operator,
-assuming `long` can hold it:
+The following code will print the value `UINT_MAX` as the first result, due to `integer-promotion` in conditional operator, assuming `long` can hold it, but will print `-1` as the second result:
 
-```
+```c
 #include <stdio.h>
 #include <stdbool.h>
 

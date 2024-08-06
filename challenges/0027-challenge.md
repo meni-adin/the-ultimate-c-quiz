@@ -1,7 +1,9 @@
 What will be the output in each of the following:
 
-## 1
-```
+__1__
+---
+
+```c
 #include <stdio.h>
 
 int main()
@@ -19,8 +21,10 @@ int main()
 }
 ```
 
-## 2
-```
+__2__
+---
+
+```c
 #include <stdio.h>
 
 int main()
@@ -41,8 +45,10 @@ int main()
 }
 ```
 
-## 3
-```
+__3__
+---
+
+```c
 #include <stdio.h>
 
 int main()

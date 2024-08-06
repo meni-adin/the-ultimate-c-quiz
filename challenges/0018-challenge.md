@@ -1,5 +1,5 @@
 Is `ptr` in the following code a `null pointer constant`?
 
-```
-    constexpr void *ptr = 0;
+```c
+constexpr void *ptr = 0;
 ```

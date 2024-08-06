@@ -1,6 +1,6 @@
 Find the bug:
 
-```
+```c
 #include <stdio>
 
 void(FILE file)

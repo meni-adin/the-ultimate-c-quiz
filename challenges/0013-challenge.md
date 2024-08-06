@@ -1,7 +1,6 @@
-What's wrong with the following code?
-(taken from C11, §6.5.2.3.9)
+What's wrong with the following code? (taken from `C11`, `§6.5.2.3.9`)
 
-```
+```c
 struct t1 { int m; };
 struct t2 { int m; };
 

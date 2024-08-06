@@ -1,5 +1,6 @@
 It depends on the base used:
-```
+
+```c
 strtol("0x10", NULL, 0);  // 16     - The '0x' prefix identifies the representation as hexadecimal, so it's ignored and the value is 16.
 strtol("0x10", NULL, 2);  // 0      - The '0' is identified as 0, and the conversion stops at 'x' as it's not a digit in base 2.
 strtol("0x10", NULL, 3);  // 0      - Same as 2.

@@ -1,7 +1,9 @@
 Consider the following code:
 
-main.c
-```
+__main.c__
+---
+
+```c
 float my_func();
 
 int main(void)
@@ -19,8 +21,10 @@ int main(void)
 }
 ```
 
-my_lib.c
-```
+__my_lib.c__
+---
+
+```c
 float my_func(float f)
 {
     return f;
@@ -28,10 +32,7 @@ float my_func(float f)
 ```
 
 It may seems like the function returns exactly what it gets, but it's not true.
-Since where there is no function prototype, the usual-arithmetic-conversions is performed on all arguments,
-in that case converting the float to a double.
-Since the called function expects a float, the input isn't layed out correctly in memory, probably causing
-undefined-behavior. Then, the sign, exponent, and mantissa of the float are interpreted and returned to the caller,
-causing a wrong number to be returned.
+
+Since where there is no function prototype, the `usual-arithmetic-conversions` is performed on all arguments, in that case converting the float to a double. Since the called function expects a float, the input isn't layed out correctly in memory, probably causing undefined-behavior. Then, the sign, exponent, and mantissa of the float are interpreted and returned to the caller, causing a wrong number to be returned.
 
 There are many other errors that could occur (wrong number of arguments, etc.)
