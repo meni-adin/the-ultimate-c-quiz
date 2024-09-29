@@ -35,4 +35,4 @@ int main(void)
 
 but running it has the same results.
 
-Turns out there is an old discussion on this issue in the GCC community, check [this](https://gcc.gnu.org/bugzilla/show_bug.cgi?id=14319) and [this](https://gcc.gnu.org/bugzilla/show_bug.cgi?id=65892)
+Turns out there is an old discussion on this issue in the GCC community, check [this](https://gcc.gnu.org/bugzilla/show_bug.cgi?id=14319) and [this](https://gcc.gnu.org/bugzilla/show_bug.cgi?id=65892) for more info.
